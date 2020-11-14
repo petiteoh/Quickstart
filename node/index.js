@@ -84,7 +84,7 @@ app.post('/api/create_link_token', function(request, response, next) {
       // This should correspond to a unique id for the current user.
       'client_user_id': 'user-id',
     },
-    'client_name': "Plaid Quickstart",
+    'client_name': "HIHI",
     'products': PLAID_PRODUCTS,
     'country_codes': PLAID_COUNTRY_CODES,
     'language': "en",
@@ -136,7 +136,7 @@ app.post('/api/create_link_token_for_payment', function(request, response, next)
                 // This should correspond to a unique id for the current user.
                 'client_user_id': 'user-id',
               },
-              'client_name': "Plaid Quickstart",
+              'client_name': "TEST 2",
               'products': PLAID_PRODUCTS,
               'country_codes': PLAID_COUNTRY_CODES,
               'language': "en",
